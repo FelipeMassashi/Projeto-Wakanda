@@ -179,6 +179,7 @@ input[type="checkbox"]:checked + #chk::before{
 }
 
 .container-main-img{
+    width: 70%;
     margin: auto;
     display: block;
     margin: 40px auto 30px;
