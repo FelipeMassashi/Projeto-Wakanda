@@ -27,8 +27,9 @@ html{
     --color-text: #000000;
     --bg: #58296b; */
 
-    --bg: #B8B7D1;
-    --bg-panel: #58296b;
+    --bg: #9d9bc4;
+    --bg-panel: #8b8b8b;
+    --bg-principal: rgba(255, 255, 255, 0.9);
     --color-headings: #000000;
     --color-text: rgb(98, 27, 179);
 }
@@ -110,7 +111,7 @@ body{
     border-radius: 20px;
     padding: 1.62px 1.8px;
     box-sizing: border-box;
-    border: 1px solid rgb(167, 167, 167);
+    border: 1px solid rgb(148, 148, 148);
     margin-left: 40px;
     position: relative;
     top: 25px;
@@ -137,7 +138,7 @@ input[type="checkbox"]{
 
 input[type="checkbox"]:checked + #chk::before{
     transform: translateX(14.5px);
-    background-color: rgb(228, 8, 8);
+    background-color: rgb(108, 32, 179);
 }
 
 .container-main-label p{
@@ -161,21 +162,23 @@ input[type="checkbox"]:checked + #chk::before{
 .container-main-home{
     max-width: 90%;
     height: 90%;
-    border: 3px solid var(--bg-panel);
+    box-shadow: 0px 0px 2px rgb(135, 137, 161);
     margin: 45px auto 40px;
     padding-top: 3px;
     padding-bottom: 70px;
     box-sizing: border-box;
     border-radius: 15px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: var(--bg-principal);
 }
 
 .container-main-title{
-    margin: 30px 105px;
-    border-bottom: 2px solid var(--bg-panel); 
+    margin: 30px 122px;
+    border-bottom: 2px solid rgb(153, 153, 153);
+    border-radius: 8px; 
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     font-weight: normal;
+    color: var(--color-headings);
 }
 
 .container-main-img{
@@ -184,7 +187,7 @@ input[type="checkbox"]:checked + #chk::before{
     display: block;
     margin: 40px auto 30px;
     border-radius: 10px;
-    box-shadow: 3px 3px 15px black;
+    box-shadow: 0px 0px 8px black;
     transition: all .8s;
     animation: zoomIn;
     animation-duration: .8s;
@@ -221,7 +224,7 @@ input[type="checkbox"]:checked + #chk::before{
 .container-footer{
     margin-top: 30px;
     width: 100%;
-    background-color: #0c0816;
+    background-color: #171C26;
     color: white;
     border-radius: 10px;
     text-align: center;
