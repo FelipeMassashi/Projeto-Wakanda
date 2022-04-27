@@ -192,6 +192,10 @@ input[type="checkbox"]:checked + #chk::before{
     color: var(--color-headings);
 }
 
+.teste{
+    margin-left: 40px;
+}
+
 .container-main-p{
     color: var(--color-headings);
     max-width: 70%;
