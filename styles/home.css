@@ -73,21 +73,36 @@ body{
     border-top-right-radius: 10px;
     animation: fadeIn;
     animation-duration: .8s;
+    display: flex;
 }
 
 .container-navbar a{
-    margin: 0 55px;
     font-size: 20px;
+    margin-right: 120px;
     color: white;
     text-decoration: none;
-    transition: all .5s ease-in-out;
+    transition: all .5s;
+}
+
+.container-navbar a:first-child{
+    margin-left: 30px;
+}
+
+.container-navbar a:after{
+    content: "";
+    display: block;
+    border-bottom: 2px solid rgb(109, 48, 179);
+    margin-top: 0px;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
 }
 
 .container-navbar a:hover{
-    color: rgb(176, 141, 216);
-    border-bottom: #b8b7d1 solid 1px;
-    animation: fadeIn;
-    animation-duration: 1.5s;
+    color: #ccc;
+}
+
+.container-navbar a:hover:after{
+    transform: scaleX(1);
 }
 
 .container-main-label{
@@ -153,8 +168,9 @@ input[type="checkbox"]:checked + #chk::before{
 
 .container-navbar-span{
     position: relative;
-    left: 205px;
+    left: 150px;
     top: 3.5px;
+    color: red;
 }
 
 .container-main{
@@ -164,6 +180,7 @@ input[type="checkbox"]:checked + #chk::before{
     border-end-end-radius: 10px;
     animation: fadeIn;
     animation-duration: 2s;
+    transition: background .3s ease-out;
 }
 
 .container-main-home{
@@ -178,6 +195,7 @@ input[type="checkbox"]:checked + #chk::before{
     box-sizing: border-box;
     border-radius: 15px;
     background-color: var(--bg-principal);
+    transition: background .3s ease-out;
 }
 
 .div-main{
