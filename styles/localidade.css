@@ -211,6 +211,16 @@ input[type="checkbox"]:checked + #chk::before{
     font-family: 'Bebas Neue', cursive;
     font-weight: normal;
     color: var(--color-headings);
+    font-size: 1.7em;
+}
+
+.container-main iframe{
+    margin: 30px auto;
+    display: block;
+    width: 70%;
+    border-radius: 15px;
+    animation: zoomIn;
+    animation-duration: .8s;
 }
 
 .container-main-p{
@@ -229,6 +239,22 @@ input[type="checkbox"]:checked + #chk::before{
 
 .container-main-p a{
     color: black;
+}
+
+.container-main-img{
+    margin: 30px auto;
+    display: block;
+    border-radius: 10px;
+    transition: all 1s;
+    animation: zoomIn;
+    animation-duration: .8s;
+    box-shadow: 0px 0px 10px black;
+}
+
+.container-main-img:hover{
+    transform: scale(1.15);
+    box-shadow: 0px 0px 100px black;
+    border-radius: 0;
 }
 
 .container-footer{

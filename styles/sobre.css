@@ -206,11 +206,11 @@ input[type="checkbox"]:checked + #chk::before{
     font-family: 'Bebas Neue', cursive;
     font-weight: normal;
     color: var(--color-headings);
+    font-size: 1.7em;
 }
 
 .container-main-img{
     width: 70%;
-    margin: auto;
     display: block;
     margin: 40px auto 30px;
     border-radius: 10px;

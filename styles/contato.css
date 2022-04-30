@@ -211,10 +211,75 @@ input[type="checkbox"]:checked + #chk::before{
     font-family: 'Bebas Neue', cursive;
     font-weight: normal;
     color: var(--color-headings);
+    font-size: 1.7em;
 }
 
-.teste{
-    margin-left: 40px;
+.container-main-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.container-main-div-div{
+    width: 35%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 15px;
+    border: none;
+}
+
+.container-main-div-div-title{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin: -40px auto 5px;
+    line-height: 1.8rem;
+}
+
+.container-main-div-div strong{
+    font-family: "teste2";
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+    color: var(--color-text);
+}
+
+.container-main-div-div-input1{
+    height: 30px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto 15px;
+    border-radius: 15px;
+    border: none;
+    font-family: sans-serif;
+}
+
+.container-main-div-div-input2{
+    height: 30px;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto 20px;
+    border-radius: 15px;
+    border: none;
+    font-family: sans-serif;
+}
+
+.container-main-div-div-input3{
+    height: 30px;
+    width: 30%;
+    text-align: center;
+    margin: 10px auto;
+    border-radius: 15px;
+    border: none;
+    font-family: "teste2";
+    font-size: 1rem;
+}
+
+.container-main-div-img{
+    width: 35%;
 }
 
 .container-main-p{
