@@ -507,6 +507,11 @@ input[type="checkbox"]:checked + #chk::before{
 }
 
 @media only screen and (max-width: 500px){
+    .container-header-title{
+        width: 100%;
+        font-size: 45px;
+    }
+    
     .container-main{
         max-width: 400px;
         margin: auto;

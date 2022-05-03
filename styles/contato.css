@@ -430,6 +430,11 @@ input[type="checkbox"]:checked + #chk::before{
         height: auto;
     }
 
+    .container-main-div-div{
+        width: 70%;
+        box-shadow: 0 0 15px rgb(118, 17, 185);
+    }
+
     .container-footer{
         max-width: 800px;
         margin: 30px auto;
@@ -528,6 +533,15 @@ input[type="checkbox"]:checked + #chk::before{
         height: auto;
     }
 
+    .container-main-div-img{
+        display: none;
+    }
+    
+    .container-main-div-div{
+        width: 70%;
+        margin-bottom: 60px;
+    }
+
     .container-footer{
         max-width: 600px;
         margin: 30px auto;
@@ -550,6 +564,11 @@ input[type="checkbox"]:checked + #chk::before{
 }
 
 @media only screen and (max-width: 500px){
+    .container-header-title{
+        width: 100%;
+        font-size: 45px;
+    }
+    
     .container-main{
         max-width: 400px;
         margin: auto;
@@ -632,8 +651,15 @@ input[type="checkbox"]:checked + #chk::before{
         margin: 40px 20px 20px;
     }
 
+    .container-main-div-img{
+        display: none;
+    }
     
-    
+    .container-main-div-div{
+        width: 70%;
+        margin-bottom: 30px;
+    }
+
     .container-navbar span{
         display: none;
     }
