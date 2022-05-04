@@ -221,7 +221,8 @@ input[type="checkbox"]:checked + #chk::before{
 }
 
 .container-main-div-div{
-    width: 35%;
+    width: 70%;
+    box-shadow: 0 0 15px rgb(118, 17, 185);
     height: 400px;
     display: flex;
     flex-direction: column;
@@ -244,12 +245,13 @@ input[type="checkbox"]:checked + #chk::before{
     font-size: 2.5rem;
     text-align: center;
     margin-bottom: 30px;
-    color: var(--color-text);
+    color: rgb(118, 17, 185);
+    text-shadow: 3px 3px 1px rgb(49, 28, 73);
 }
 
 .container-main-div-div-input1{
     height: 30px;
-    width: 80%;
+    width: 50%;
     text-align: center;
     margin: 0 auto 15px;
     border-radius: 15px;
@@ -259,7 +261,7 @@ input[type="checkbox"]:checked + #chk::before{
 
 .container-main-div-div-input2{
     height: 30px;
-    width: 80%;
+    width: 50%;
     text-align: center;
     margin: 0 auto 20px;
     border-radius: 15px;
@@ -276,6 +278,12 @@ input[type="checkbox"]:checked + #chk::before{
     border: none;
     font-family: "teste2";
     font-size: 1rem;
+    transition: all .2s;
+}
+
+.container-main-div-div-input3:hover{
+    background-color: #2f2c61;
+    color: #ccc;
 }
 
 .container-main-div-img{
@@ -658,6 +666,16 @@ input[type="checkbox"]:checked + #chk::before{
     .container-main-div-div{
         width: 70%;
         margin-bottom: 30px;
+    }
+
+    .container-main-div-div-input3{
+        cursor: pointer;
+        transition: all .2s;
+    }
+
+    .container-main-div-div-input3:hover{
+        background-color: #2f2c61;
+        color: #ccc;
     }
 
     .container-navbar span{
